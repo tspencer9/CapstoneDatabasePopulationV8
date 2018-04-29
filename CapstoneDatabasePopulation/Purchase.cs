@@ -16,11 +16,10 @@ namespace CapstoneDatabasePopulation
 
         DateTime GetPurchaseDate()
         {
-            DateTime purchaseDate = new DateTime(CapstoneUtilities.random.Next(2017, DateTime.Now.Year + 1),
-                CapstoneUtilities.random.Next(1, 13), CapstoneUtilities.random.Next(1, 29));
-
+            DateTime purchaseDate = new DateTime(2018,
+                CapstoneUtilities.random.Next(1, DateTime.Now.Month + 1), CapstoneUtilities.random.Next(1, 29));
             if (purchaseDate > DateTime.Now)
-                return new DateTime(purchaseDate.Year - 1, purchaseDate.Month, purchaseDate.Day);
+                return new DateTime(2018, purchaseDate.Month, purchaseDate.Day);
             else
                 return purchaseDate;
         }

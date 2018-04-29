@@ -23,11 +23,11 @@ namespace CapstoneDatabasePopulation
 
         public DateTime GetStartDate()
         {
-            startDate = new DateTime(CapstoneUtilities.random.Next(2017, DateTime.Now.Year + 1),
-                CapstoneUtilities.random.Next(1, 13), CapstoneUtilities.random.Next(1, 29));
+            startDate = new DateTime(2018, CapstoneUtilities.random.Next(1, DateTime.Now.Month + 1), 
+                CapstoneUtilities.random.Next(1, 29));
 
             if (startDate > DateTime.Now)
-                return new DateTime(startDate.Year - 1, startDate.Month, startDate.Day);
+                return new DateTime(startDate.Year, startDate.Month - 1, startDate.Day);
             else
                 return startDate;
         }

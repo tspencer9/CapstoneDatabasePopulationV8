@@ -51,7 +51,7 @@ namespace CapstoneDatabasePopulation
 
         public void InsertIntoProductQuantityTable()
         {
-            string insertStatement = string.Format("INSERT INTO ProdQty (PurchaseId, ProductId, ProdQty, WholesaleTotal, Retailtotal) " +
+            string insertStatement = string.Format("INSERT INTO ProdQty (PurchaseId, ProductId, Quantity, WholesaleTotal, Retailtotal) " +
                 "VALUES ({0}, {1}, {2}, {3}, {4})", this.PurchaseId, this.ProductId, this.ProdQty, GetWholesaleTotal(), GetRetailTotal());
 
             new SqlCommand(insertStatement, CapstoneUtilities.connection).ExecuteNonQuery();

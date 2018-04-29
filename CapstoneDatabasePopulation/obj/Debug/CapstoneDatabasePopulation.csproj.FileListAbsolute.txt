@@ -54,3 +54,10 @@ C:\Users\smash\OneDrive\Desktop\CapstoneSpring2018\CapstoneDatabasePopulationV7\
 C:\Users\smash\OneDrive\Desktop\CapstoneSpring2018\CapstoneDatabasePopulationV7\CapstoneDatabasePopulation\obj\Debug\CapstoneDatabasePopulation.csproj.CoreCompileInputs.cache
 C:\Users\smash\OneDrive\Desktop\CapstoneSpring2018\CapstoneDatabasePopulationV7\CapstoneDatabasePopulation\obj\Debug\CapstoneDatabasePopulation.exe
 C:\Users\smash\OneDrive\Desktop\CapstoneSpring2018\CapstoneDatabasePopulationV7\CapstoneDatabasePopulation\obj\Debug\CapstoneDatabasePopulation.pdb
+C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulation\bin\Debug\CapstoneDatabasePopulation.exe.config
+C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulation\bin\Debug\CapstoneDatabasePopulation.exe
+C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulation\bin\Debug\CapstoneDatabasePopulation.pdb
+C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulation\obj\Debug\CapstoneDatabasePopulation.csprojResolveAssemblyReference.cache
+C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulation\obj\Debug\CapstoneDatabasePopulation.csproj.CoreCompileInputs.cache
+C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulation\obj\Debug\CapstoneDatabasePopulation.exe
+C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulation\obj\Debug\CapstoneDatabasePopulation.pdb
