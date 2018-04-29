@@ -23,7 +23,7 @@ namespace CapstoneDatabasePopulation
 
         public void InsertIntoMembershipPriceTable()
         {
-            string insertStatement = string.Format("INSERT INTO MembershipPrice (Price, StartDate, MembershipId)" +
+            string insertStatement = string.Format("INSERT INTO MembershipPrice (Price, StartDate, MembershipTypeId)" +
                 " VALUES ({0}, '{1}', {2})", this.Price, this.StartDate, this.MembershipTypeId);
 
             new SqlCommand(insertStatement, CapstoneUtilities.connection).ExecuteNonQuery();
