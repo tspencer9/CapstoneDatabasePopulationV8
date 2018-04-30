@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Web.Helpers;
 
 /* Needs its own userName generation components so that userNames aren't based off of the customer table.
  * Needs its own constructor because of the overriden methods. Cannot inherit from GymUser class because it needs
@@ -51,7 +52,7 @@ namespace CapstoneDatabasePopulation
 
         public string GetPassword()
         {
-            return GetUserNameFinal();
+            return Crypto.HashPassword(GetUserNameFinal());
         }
 
         public DateTime GetHireDate()

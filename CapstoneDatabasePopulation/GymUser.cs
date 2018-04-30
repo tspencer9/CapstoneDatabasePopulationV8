@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Web.Helpers;
 
 namespace CapstoneDatabasePopulation
 {
@@ -46,7 +47,7 @@ namespace CapstoneDatabasePopulation
 
         public string GetPassword()
         {
-            return GetUserNameFinal();
+            return Crypto.HashPassword(GetUserNameFinal());
         }
 
         public GymUser()

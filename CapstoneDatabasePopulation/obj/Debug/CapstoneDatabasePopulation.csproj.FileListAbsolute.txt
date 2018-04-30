@@ -61,3 +61,6 @@ C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulat
 C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulation\obj\Debug\CapstoneDatabasePopulation.csproj.CoreCompileInputs.cache
 C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulation\obj\Debug\CapstoneDatabasePopulation.exe
 C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulation\obj\Debug\CapstoneDatabasePopulation.pdb
+C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulation\bin\Debug\System.Web.Helpers.Crypto.dll
+C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulation\bin\Debug\System.Web.Helpers.Crypto.pdb
+C:\Users\smash\source\repos\CapstoneDatabasePopulationV8\CapstoneDatabasePopulation\obj\Debug\CapstoneDatabasePopulation.csproj.CopyComplete
